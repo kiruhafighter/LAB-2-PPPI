@@ -2,7 +2,7 @@
 
 namespace LAB_3
 {
-    class Team : INameAndCopy
+    public class Team : INameAndCopy
     {
         protected private string organisationName;
         protected private int registrationNumber;

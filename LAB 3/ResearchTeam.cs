@@ -7,12 +7,12 @@ using System.Xml.Linq;
 namespace LAB_3
 {
 
-    class ResearchTeam : Team, INameAndCopy, IEnumerable , IComparer<ResearchTeam> , INotifyPropertyChanged
+    public class ResearchTeam : Team, INameAndCopy, IEnumerable , IComparer<ResearchTeam> , INotifyPropertyChanged
     {
-        private string researchTopic;
-        private TimeFrame researchDuration;
-        private List<Person> projectMembers;
-        private List<Paper> publicationList;
+        public string researchTopic;
+        public TimeFrame researchDuration;
+        public List<Person> projectMembers;
+        public List<Paper> publicationList;
 
         public event PropertyChangedEventHandler PropertyChanged;
         protected virtual void OnPropertyChanged (string name)

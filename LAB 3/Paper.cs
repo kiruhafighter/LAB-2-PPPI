@@ -2,7 +2,7 @@
 
 namespace LAB_3
 {
-    class Paper
+    public class Paper
     {
         public string PublicationName { get; set; }
         public Person InformationAboutAutor { get; set; }

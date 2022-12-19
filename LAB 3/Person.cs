@@ -2,7 +2,7 @@
 
 namespace LAB_3
 {
-    class Person
+    public class Person
     {
         private string name;
         private string surname;
