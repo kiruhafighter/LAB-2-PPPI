@@ -17,7 +17,7 @@ namespace LAB_3
 
         public Paper()
         {
-            PublicationName = "Hovs";
+            PublicationName = "Rod Isle";
             InformationAboutAutor = new Person("Peter", "Griffin", new DateTime(1983, 08, 12));
             PublicationDate = new DateTime(2022, 12, 03);
         }

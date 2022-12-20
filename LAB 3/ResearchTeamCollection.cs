@@ -43,8 +43,6 @@ namespace LAB_3
                 }
             }
             return false;
-
-
         }
         /*• метод bool Replace(ResearchTeam rtold, ResearchTeam rtnew) для заміни у словнику
          * Dictionary<TKey, ResearchTeam > елемента зі значенням rtold на елемент зі значенням rtnew;
@@ -57,7 +55,6 @@ namespace LAB_3
             {
                 rtold = rtnew;
                 ResearchTeamsChanged(this, new ResearchTeamChangedEventArgs<TKey>(NameCol, Revision.Replace, " ", 2));
-
                 return true;
             }
             else

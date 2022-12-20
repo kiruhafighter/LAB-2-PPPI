@@ -35,11 +35,11 @@ namespace LAB_3
             RT[0].researchTopic = "New Theme";
             RT[1].researchDuration = TimeFrame.Year;
             researchTeamString.Remove(RT[0]);
-            RT[0].researchTopic = "tiger";
+            RT[0].researchTopic = "Tigers' population";
             researchTeamString.Replace(RT[0], RT[2]);
             RT[0].researchDuration = TimeFrame.Year;
 
-            Console.WriteLine(teamJournal);
+            
 
             Console.WriteLine("Publications for last 3 years:\n");
             RT[0].AddMembers(new Person("New", "Surname", new DateTime(1999, 12, 18)), new Person("New", "Surname", new DateTime(1999, 12, 10)));
@@ -53,6 +53,7 @@ namespace LAB_3
                 Console.WriteLine(publication.ToString());
 
 
+            Console.WriteLine(researchTeamString.ToString());
 
             Console.WriteLine("-----------------------\n");
 

@@ -84,9 +84,9 @@ namespace LAB_3
 
             PublicationList = new List<Paper>
             {
-                new Paper("Hovar", new(), new DateTime()),
-                new Paper("Norn", new(), new DateTime()),
-                new Paper("Dew", new(), new DateTime())
+                new Paper("Paper1", new(), new DateTime()),
+                new Paper("Paper2", new(), new DateTime()),
+                new Paper("Paper3", new(), new DateTime())
             };
         }
 
