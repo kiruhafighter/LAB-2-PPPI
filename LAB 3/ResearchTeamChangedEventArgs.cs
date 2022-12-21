@@ -2,7 +2,7 @@
 
 namespace LAB_3
 {
-    public enum Revision { Remove, Replace, Property }
+    public enum Revision { Remove, Replace, Property, Add }
     public delegate void ResearchTeamChangedHandler<TKey>(object source, ResearchTeamChangedEventArgs<TKey> args);
     public class ResearchTeamChangedEventArgs<TKey> : System.EventArgs
     {
@@ -22,7 +22,7 @@ namespace LAB_3
 
         public override string ToString()
         {
-            return String.Format("Name of collection - {0},\n Information about change : {1}\n Name of class archTeam, which is source of changing: {2}\n Number of registration ResearchTeam {3}", NameCollection, InfoAboutEvent, NamePropertyResearchTeam, NumberRegisterResearchTeam);
+            return String.Format($"Name of collection - {NameCollection},\n Information about change : {InfoAboutEvent}\n Name of class archTeam, which is source of changing: {NamePropertyResearchTeam}\n Number of registration ResearchTeam {NumberRegisterResearchTeam} \n");
         }
     }
 }

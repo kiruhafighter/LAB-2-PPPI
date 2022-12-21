@@ -22,7 +22,7 @@ namespace LAB_3
         }
         public override string ToString()
         {
-            return String.Format("Name of the collection - {0},\n Information about event type {1}\n Event reason: {2}\n registration number ResearchTeam {3}", NameCollection, TypeOfEvent, PropertyRT, NumberOfRegistration);
+            return String.Format($"Name of the Research Team - {NameCollection},\n Event type: {TypeOfEvent} \n Information: {PropertyRT} \n Registration number {NumberOfRegistration} \n" );
         }
     }
 }
